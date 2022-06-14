@@ -1,0 +1,49 @@
+{
+  "name": "devices-sena-server",
+  "version": "0.1.0",
+  "description": "Proyecto para leer los dispositivos que ingresan al sena",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:server",
+    "start:server": "nodemon --exec babel node index.js"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "sena"
+  ],
+  "author": {
+    "name": "Andrés Felipe Delgado",
+    "email": "andresfdel13@hotmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.5",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "express-session": "^1.17.3",
+    "json-server": "^0.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.5",
+    "sequelize": "^6.20.1",
+    "sequelize-auto": "^0.8.8"
+  }
+}
+
